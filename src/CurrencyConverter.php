@@ -6,4 +6,4 @@ class CurrencyConverter
     {
         return round($amount * $rate, 2);
     }
-}
+} 

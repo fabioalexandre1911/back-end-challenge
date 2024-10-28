@@ -25,5 +25,3 @@ $currencyConverter = new CurrencyConverter();
 $api = new Api($currencyConverter, $exchangeRateService);
 
 $api->handleRequest();
-
-
